@@ -18,7 +18,7 @@ html{
 }
 body {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
-  font-size: 100%;
+//  font-size: 100%;
   padding: 0 !important;
   margin: 0;
   position: relative;
@@ -386,4 +386,15 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   position: fixed;
   top: 17px;
   right: 10px;
+}
+
+.box {
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: white !important;
+    color: #505050;
+    line-height: 1.5em;
+    border: none !important; 
+    word-wrap: break-word;
+    border-radius: 3px;
 }
